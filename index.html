@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Learn Tailwind</title>
+  </head>
+  <body class="bg-gray-950">
+    <nav class="fixed top-0 flex w-full h-14 justify-between items-center px-4">
+      <div class="flex items-center gap-x-4">
+        <button class="bg-default">
+          <img src="./assets/icons/menu.svg" class="w-6" />
+        </button>
+        <h3 class="text-slate-100 text-xl">Youtube</h3>
+      </div>
+      <div class="pl-24 basis-[55%] flex items-center">
+        <input
+          type="search"
+          class="bg-gray-950 text-slate-100 border border-zinc-800 py-2 pl-4 rounded-l-full w-[75%]"
+          placeholder="Search"
+        />
+        <button
+          class="bg-zinc-800 py-[10px] px-5 rounded-r-full border border-zinc-800"
+        >
+          <img src="./assets/icons/search.svg" class="w-5" />
+        </button>
+        <button class="bg-default ml-4">
+          <img src="./assets/icons/mic.svg" class="w-5" />
+        </button>
+      </div>
+      <div class="flex items-center space-x-4">
+        <img src="./assets/icons/ellipse.svg" class="w-6 cursor-pointer" />
+        <button
+          class="flex items-center border-2 py-1 px-2 border-zinc-800 rounded-full hover:bg-sky-600 hover:bg-opacity-30"
+        >
+          <img src="./assets/icons/user.svg" class="w-6 text-sky-600" /><span
+            class="text-sky-600 pl-2 text-sm font-semibold"
+            >Sign in</span
+          >
+        </button>
+      </div>
+    </nav>
+    <main>
+      <aside>sidebar</aside>
+      <div>content</div>
+    </main>
+  </body>
+</html>
